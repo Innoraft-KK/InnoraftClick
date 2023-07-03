@@ -1,0 +1,30 @@
+uuid: 8207897d-f906-4683-85be-128130918345
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:567e1dfc-6ff0-4189-91af-ea39ddb18d69'
+  module:
+    - block_content
+    - system
+  theme:
+    - bootstrap
+id: socialloginurl
+theme: bootstrap
+region: content
+weight: -6
+provider: null
+plugin: 'block_content:567e1dfc-6ff0-4189-91af-ea39ddb18d69'
+settings:
+  id: 'block_content:567e1dfc-6ff0-4189-91af-ea39ddb18d69'
+  label: 'Social Login Url'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /user/login

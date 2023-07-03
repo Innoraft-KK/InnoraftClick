@@ -1,0 +1,16 @@
+uuid: 7672d313-4565-48b1-af5d-485c55d0b1de
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+id: developer
+label: Developer
+weight: 5
+is_admin: null
+permissions:
+  - 'edit own field_allocation_sta'
+  - 'view field_allocation_sta'
+  - 'view own field_allocation_sta'
+  - 'view own unpublished content'

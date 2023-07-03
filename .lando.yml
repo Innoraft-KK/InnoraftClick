@@ -1,0 +1,4 @@
+name: innoraftclick
+recipe: drupal10
+config:
+  webroot: web
