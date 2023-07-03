@@ -1,0 +1,18 @@
+uuid: 4d3973c8-ac3c-48ab-abeb-7ecb83b5f931
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - node
+id: hr
+label: HR
+weight: 6
+is_admin: null
+permissions:
+  - 'administer account settings'
+  - 'administer permissions'
+  - 'administer users'
+  - 'edit field_skills'
+  - 'select account cancellation method'
+  - 'view own unpublished content'

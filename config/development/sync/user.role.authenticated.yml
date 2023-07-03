@@ -1,0 +1,38 @@
+uuid: 04de9b21-0cc2-467a-8513-77e511413284
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+  module:
+    - comment
+    - contact
+    - field_permissions
+    - filter
+    - search
+    - shortcut
+    - system
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access user profiles'
+  - 'create field_skills'
+  - 'edit own field_allocation_sta'
+  - 'edit own field_skills'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view field_list_of_developer'
+  - 'view field_skills'
+  - 'view own field_allocation_sta'
+  - 'view own field_list_of_developer'
+  - 'view own field_skills'

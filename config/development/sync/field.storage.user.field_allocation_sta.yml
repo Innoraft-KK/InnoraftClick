@@ -1,0 +1,31 @@
+uuid: a2e34a2b-1970-46dc-b58f-d4e2b06fc0ed
+langcode: en
+status: true
+dependencies:
+  module:
+    - field_permissions
+    - options
+    - user
+third_party_settings:
+  field_permissions:
+    permission_type: custom
+id: user.field_allocation_sta
+field_name: field_allocation_sta
+entity_type: user
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: Occupied
+      label: Occupied
+    -
+      value: Available
+      label: Available
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

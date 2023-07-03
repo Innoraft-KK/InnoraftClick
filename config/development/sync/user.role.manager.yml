@@ -1,0 +1,24 @@
+uuid: 15455308-df84-410f-a80e-eda9beca8d03
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.project
+  module:
+    - field_permissions
+    - node
+id: manager
+label: Manager
+weight: 4
+is_admin: null
+permissions:
+  - 'create field_list_of_developer'
+  - 'create project content'
+  - 'delete any project content'
+  - 'delete own project content'
+  - 'edit any project content'
+  - 'edit field_list_of_developer'
+  - 'edit field_skills'
+  - 'edit own field_list_of_developer'
+  - 'edit own project content'
+  - 'view own unpublished content'

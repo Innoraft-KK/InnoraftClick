@@ -1,0 +1,21 @@
+uuid: 8d68c25b-04f8-4f1e-8a93-811fc536b0b0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_allocation_sta
+  module:
+    - options
+    - user
+id: user.user.field_allocation_sta
+field_name: field_allocation_sta
+entity_type: user
+bundle: user
+label: 'Allocation Status'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

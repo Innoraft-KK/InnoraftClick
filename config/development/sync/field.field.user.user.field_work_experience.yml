@@ -1,0 +1,24 @@
+uuid: f2534bd9-b7bc-4fc2-8b54-0a7493f1a97a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_work_experience
+  module:
+    - user
+id: user.user.field_work_experience
+field_name: field_work_experience
+entity_type: user
+bundle: user
+label: 'Work Experience'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 0
+  max: null
+  prefix: ''
+  suffix: '+ years'
+field_type: integer
